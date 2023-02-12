@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header lock-padding">
+            <div class="header__container">
+                <a href="" class="header__logo">
+                    <img src="image/logo.png" alt="">
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a data-goto=".page__about" href="" class="menu__link">Про нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a data-goto=".page__services" href="" class="menu__link">Послуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a data-goto=".footer" href="" class="menu__link">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-icon">
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <main class="page">
+            <section class="page__main main">
+                <div class="main__container">
+                    <div class="main__inner">
+                        <h1 class="main__title">
+                            Ремонт і сервіс усіх популярних марок авто з гарантією на всі види робіт
+                        </h1>
+                        <a href="#popup" class="main__button button popup-link">Замовити консультацію</a>
+                    </div>
+                </div>
+                <div class="main__contact contact-main">
+                    <div class="contact-main__container">
+                        <div class="main__location">
+                            <span class="icon-location-dicon"></span>
+                            <span>м. Київ, вул. Оноре де Бальзака 19 /лівий берег</span>
+                        </div>
+                        <a href="tel:+380733030383" class="main__phone">
+                            <span class="icon-phone-icon"></span>
+                            <span>+38(073)303-03-83</span>
+                        </a>
+                        <div class="main__schedule">
+                            <div class="weekday">
+                                <span class="icon-shedule-icon"></span>
+                                <span>пн - пт (з 10:00 до 19:00)</span>
+                            </div>
+                            <div class="weekend">
+                                <span class="icon-shedule-icon"></span>
+                                <span>сб - нд (з 10:00 до 16:00)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__about about">
+                <div class="about__container">
+                    <div class="about__body">
+                        <h2 class="about__title">Наш автосервіс у Києві</h2>
+                        <p class="about__text">
+                            Наш автосервіс працює з 2021 року і на даний момент є одним з кращих автосервісів Львова. Ми постійно працюємо над контролем якості. У наших автосервісах використовується найсучасніше обладнання та інструменти. У нас працюють найкращі професіонали своєї справи.
+                            Знайомство починається з діагностики автомобіля, ми проводимо комп’ютерну діагностику, яка в більшості випадків виявляє причину виниклої несправності. Далі в роботу приступають майстри, які усувають несправність.
+                            Ми надаємо такі види робіт як: заміна масла в двигуні і коробці передач, діагностика і ремонт двигуна, діагностика і ремонт ходової частини (підвіски), діагностика і ремонт електрики автомобіля, вихлопної системи і кондиціонування, діагностика і ремонт гальмівної системи, шиномонтаж і розвал сходження. Для Вашої зручності наші автосервіси розташовуються в різних районах Львова. Приїжджайте ми завжди будемо раді Вам!
+                        </p>
+                    </div>
+                    <form action="" class="about__form">
+                        <div class="about__form-title">Залиште заявку</div>
+                        <div class="about__form-text">Менеджер зв'яжеться з вами найближчим часом</div>
+                        <input class="input-form" type="text" name="name" required placeholder="Ваше ім'я">
+                        <input class="input-form" type="tel" name="phone" required placeholder="Номер телефону">
+                        <button class="about__form-btn button" type="submit">Надіслати</button>
+                    </form>
+                </div>
+            </section>
+            <section class="page__standarts standarts">
+                <div class="standarts__container">
+                    <div class="standarts__content">
+                        <h2 class="standarts__title">
+                            Європейський стандарт обслуговування
+                        </h2>
+                        <div class="standarts__subtitle">* Підберемо всі витратні матеріали</div>
+                        <div class="standarts__text">
+                            Ми вміємо добре обслуговувати автомобілі будь-якої марки. Надаємо якісні послуги з гарантією на роботу.
+
+                            Не витрачайте свій час на пошук потрібної вам послуги! Залиште заявку, наш майстер зв’яжеться з Вами, проконсультує і назве точну вартість і тривалість робіт!
+                        </div>
+                        <a href="#popup" class="standarts__button popup-link" type="">
+                            Залишити заявку
+                        </a>
+                    </div>
+                    <div class="standarts__image">
+                        <img src="image/standarts/02.HEIC" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="page__advantages advantages">
+                <div class="advantages__container">
+                    <h2 class="advantages__title">Чому саме ми?</h2>
+                    <div class="advantages__content">
+                        <div class="advantages__item">
+                            <div class="advantage__icon">
+                                <img src="image/icons/wrench.svg" alt="">
+                            </div>
+                            <div class="advantage__item-body">
+                                <h3 class="advantage__item-title">Проводимо більшість видів робіт</h3>
+                                <div class="advantages__item-text">Проводимо більшість видів робіт – від заміни ГРМ до втановлення системи сигналізації.</div>
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <div class="advantage__icon">
+                                <img src="image/icons/cog.svg" alt="">
+                            </div>
+                            <div class="advantage__item-body">
+                                <h3 class="advantage__item-title">Підбиремо запчастини для вашого авто</h3>
+                                <div class="advantages__item-text">У нас свій магазин по продажу запчастин, тому велика кількість запчастин є у наявності.</div>
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <div class="advantage__icon">
+                                <img src="image/icons/money-save.svg" alt="">
+                            </div>
+                            <div class="advantage__item-body">
+                                <h3 class="advantage__item-title">Підбираємо під Ваш бюджет</h3>
+                                <div class="advantages__item-text">Заздалегідь проговорюємо вартість робіт та підбираємо запчастини під Ваш бюджет</div>
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <div class="advantage__icon">
+                                <img src="image/icons/auto.svg" alt="">
+                            </div>
+                            <div class="advantage__item-body">
+                                <h3 class="advantage__item-title">Ремонт і сервіс усіх популярних марок авто</h3>
+                                <div class="advantages__item-text">Ми ремонтуємо майже усі популярні марки авто.</div>
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <div class="advantage__icon">
+                                <img src="image/icons/clipboard.svg" alt=""> 
+                            </div>
+                            <div class="advantage__item-body">
+                                <h3 class="advantage__item-title">Сертифіковане обладнання</h3>
+                                <div class="advantages__item-text">Ми проводимо діагностику на сертифікованому обладнанні</div>
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <div class="advantage__icon">
+                                <img src="image/icons/power.svg" alt="">  
+                            </div>
+                            <div class="advantage__item-body">
+                                <h3 class="advantage__item-title">Працюємо під час аварійних відключень електроенергії</h3>
+                                <div class="advantages__item-text">На СТО встановлено потужний генератор, що дозволяє безперебійно виконувати свою роботу</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__services services">
+                <div class="services__container">
+                    <h2 class="services__title">Наші послуги</h2>
+                    <div class="services__body">
+                        <div class="service__item item-service">
+                            <div class="item-service__title">Діагностика автомобіля</div>
+                            <div class="item-service__body">
+                                <div class="service__desc">
+                                    <div class="service__name">Комп’ютерна діагностика</div>
+                                    <div class="service__price">200 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика ходової частини</div>
+                                    <div class="service__price">150 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика гальмівної системи</div>
+                                    <div class="service__price">150 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__item item-service">
+                            <div class="item-service__title">Технічне обслуговування</div>
+                            <div class="item-service__body">
+                                <div class="service__desc">
+                                    <div class="service__name">Заміна мастила в двигуні</div>
+                                    <div class="service__price">150 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика ходової частини</div>
+                                    <div class="service__price">150 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика гальмівної системи</div>
+                                    <div class="service__price">150 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__item item-service">
+                            <div class="item-service__title">Ходова частина</div>
+                            <div class="item-service__body">
+                                <div class="service__desc">
+                                    <div class="service__name">Заміна мастила в двигуні</div>
+                                    <div class="service__price">150 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика ходової частини</div>
+                                    <div class="service__price">1500 - 2000 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика гальмівної системи</div>
+                                    <div class="service__price">від 150 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__item item-service">
+                            <div class="item-service__title">Рульове керування</div>
+                            <div class="item-service__body">
+                                <div class="service__desc">
+                                    <div class="service__name">Реставрація механічної кермової рейки</div>
+                                    <div class="service__price">від 1500 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Реставрація гідравлічної кермової рейки</div>
+                                    <div class="service__price">від 3000 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика гальмівної системи</div>
+                                    <div class="service__price">від 150 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__item item-service">
+                            <div class="item-service__title">Гальмівна система</div>
+                            <div class="item-service__body">
+                                <div class="service__desc">
+                                    <div class="service__name">	
+                                        Зняття та установка одного гальмівного диска</div>
+                                    <div class="service__price">500</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Реставрація гідравлічної кермової рейки</div>
+                                    <div class="service__price">від 3000 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика гальмівної системи</div>
+                                    <div class="service__price">від 150 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__item item-service">
+                            <div class="item-service__title">Трансмісія</div>
+                            <div class="item-service__body">
+                                <div class="service__desc">
+                                    <div class="service__name">	
+                                        Зняття та установка одного гальмівного диска</div>
+                                    <div class="service__price">500</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Реставрація гідравлічної кермової рейки</div>
+                                    <div class="service__price">від 3000 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика гальмівної системи</div>
+                                    <div class="service__price">від 150 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__item item-service">
+                            <div class="item-service__title">Електрообладнання</div>
+                            <div class="item-service__body">
+                                <div class="service__desc">
+                                    <div class="service__name">	
+                                        Зняття та установка одного гальмівного диска</div>
+                                    <div class="service__price">500</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Реставрація гідравлічної кермової рейки</div>
+                                    <div class="service__price">від 3000 грн</div>
+                                </div>
+                                <div class="service__desc">
+                                    <div class="service__name">Діагностика гальмівної системи</div>
+                                    <div class="service__price">від 150 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__auto auto">
+                <div class="auto__container">
+                    <div class="slider-body swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Acura.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Alfa_Romeo.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Audi.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/BMW.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Buick.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Cadillac.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Chery.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Chevrolet.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Citroen.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Chrysler.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Dacia.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Daewoo.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Dodge.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Fiat.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Ford.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Honda.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Hyundai.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Infiniti.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Jeep.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Kia.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Lexus.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Mazda.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Mercedes.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Volkswagen.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Skoda.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Seat.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Renault.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Peugeot.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Porshe.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Toyota.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Mini.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Mitsubishi.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Opel.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="image/auto-icons/png/Nissan.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__top__container">
+                    <div class="footer__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10148.96399689709!2d30.5922729!3d50.5110825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9e304184a346929f!2zT0ROIEFVVE8g0LDQstGC0L7RgdC10YDQstGW0YEg0LzQsNCz0LDQt9C40L0g0KHQotCe!5e0!3m2!1suk!2suk!4v1676050757867!5m2!1suk!2suk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="footer__contacts">
+                        <h2 class="contacts__title">Контакти</h2>
+                        <div class="location">
+                            <span class="icon-location-dicon"></span>
+                            <span>м. Київ, вул. Оноре де Бальзака 19 /лівий берег</span>
+                        </div>
+                        <a href="tel:+380733030383" class="phone">
+                            <span class="icon-phone-icon"></span>
+                            <span>+38(073)303-03-83</span>
+                        </a>
+                        <a href="mailto:vanelchuck@gmail.com" class="mail">
+                            <span class="icon-mail-icon"></span>
+                            <span>odn.autoservice@gmail.com</span>
+                        </a>
+                        <div class="schedule">
+                            <span class="icon-shedule-icon"></span>
+                            <span>пн - пт (з 10:00 до 19:00)</span>
+                        </div>
+                        <div class="schedule">
+                            <span class="icon-shedule-icon"></span>
+                            <span>сб - нд (з 10:00 до 16:00)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom__container">
+                    <a href="" class="instagram">
+                        <img src="image/footer/instagram.svg" alt="">
+                    </a>
+                    <a href="" class="tik-tok">
+                        <img src="image/footer/tiktok.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div id="popup" class="popup">
+                <div class="popup__body">
+                    <div class="popup__content">
+                        <a href="#" class="popup__close close-popup">x</a>
+                        <form action="" class="about__form">
+                            <div class="about__form-title">Залиште заявку</div>
+                            <div class="about__form-text">Менеджер зв'яжеться з вами найближчим часом</div>
+                            <input class="input-form" type="text" name="name" required placeholder="Ваше ім'я">
+                            <input class="input-form" type="tel" name="phone" required placeholder="Номер телефону">
+                            <button class="about__form-btn button" type="submit">Надіслати</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
